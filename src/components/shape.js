@@ -1,5 +1,5 @@
 // declare class
-import React, { Component, useState } from "react";
+import { Component } from "react";
 
 class Shape extends Component {
   color = "color";
