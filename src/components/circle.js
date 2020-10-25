@@ -5,9 +5,6 @@
 import Shape from "./shape";
 // export class using module.exports
 class Circle extends Shape {
-  constructor() {
-    super();
-  }
-  xalculateArea() {}
+  calculateArea() {}
 }
 export default Circle;

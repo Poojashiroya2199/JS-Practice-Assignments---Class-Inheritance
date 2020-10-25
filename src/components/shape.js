@@ -1,15 +1,9 @@
 // declare class
-import React,{Component,useState} from "react";
+import React, { Component, useState } from "react";
 
-class Shape extends Component{
-constructor(){
-  super();
-  state{
-  color:color
-  }
+class Shape extends Component {
+  color = "color";
+  drawShap() {}
+  calculateArea() {}
 }
-drawShap(){};
-calculateArea(){};
-
-}
-export  default Shape;
+export default Shape;
