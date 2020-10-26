@@ -1,5 +1,5 @@
 // declare class
-import React, { Component } from "react";
+import { Component } from "react";
 
 class Shape extends Component {
   constructor() {
@@ -8,7 +8,7 @@ class Shape extends Component {
       color: "color"
     };
   }
-  drawShap() {}
+  drawShape() {}
   calculateArea() {}
 }
 module.exports = Shape;
