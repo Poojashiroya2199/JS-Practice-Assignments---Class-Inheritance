@@ -1,8 +1,13 @@
 // declare class
-import { Component } from "react";
+import React, { Component } from "react";
 
 class Shape extends Component {
-  color = "color";
+  constructor() {
+    super();
+    this.state = {
+      color: "color"
+    };
+  }
   drawShap() {}
   calculateArea() {}
 }
