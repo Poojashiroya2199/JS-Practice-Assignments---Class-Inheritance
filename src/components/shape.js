@@ -6,4 +6,4 @@ class Shape extends Component {
   drawShap() {}
   calculateArea() {}
 }
-export default Shape;
+module.exports = Shape;
