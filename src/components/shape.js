@@ -2,11 +2,9 @@
 import { Component } from "react";
 
 class Shape extends Component {
-  constructor() {
+  constructor(color) {
     super();
-    this.state = {
-      color: "color"
-    };
+    this.color = color;
   }
   drawShape() {}
   calculateArea() {}
