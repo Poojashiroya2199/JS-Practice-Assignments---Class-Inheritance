@@ -1,10 +1,12 @@
 // declare class
-import { Component } from "react";
+import React from "react";
 
-class Shape extends Component {
-  constructor(color) {
-    this.color = color;
+class Shape extends React.Component {
+  constructor() {
+    super();
+    this.state = { color: "color" };
   }
+
   drawShape() {}
   calculateArea() {}
 }
