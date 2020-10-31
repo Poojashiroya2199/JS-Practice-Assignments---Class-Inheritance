@@ -4,9 +4,9 @@
 import Shape from "./Shape";
 // export class using module.exports
 class Circle extends Shape {
-  constructor(props){
-    super(props);
-  }
+  // constructor(props){
+  //   super(props);
+  // }
   calculateArea() {}
 }
 module.exports = Circle;
