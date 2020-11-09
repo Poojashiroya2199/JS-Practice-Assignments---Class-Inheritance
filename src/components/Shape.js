@@ -2,9 +2,9 @@
 import React from "react";
 
 class Shape extends React.Component {
-  constructor({color}) {
+  constructor({ color }) {
     super();
-    this.color=color;
+    this.color = color;
   }
 
   drawShape() {}
